@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Kevin Lam Portfolio</title>
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav>
+      <div class="left">
+        <a href="/">Kevin Lam Portfolio Website</a>
+      </div>
+      <div class="right">
+        <a
+          href="https://github.com/kevinlam404"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-github"></i>
+          <span>Github</span>
+        </a>
+
+        <a
+          href="http://linkedin.com/in/kevin-lam214"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+          <span>Linkedin</span>
+        </a>
+
+        <a
+          href="mailto: kevinklam223@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email</span>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <!--Section 1: HERO-->
+      <section class="hero-section">
+        <div class="text">
+          <h2>Hello, I'm Kevin Lam</h2>
+          <p>
+            I'm a fullstack developer based in Dallas Texas, and working on
+            completing my Bachelors in Computer Science at the University of
+            Texas at Dallas. I have a passion for all things technology but
+            mostly artifical intelligence and hope to make a significant impact
+            in the world with my knowledge and creations.
+          </p>
+
+          <div class="links">
+            <a href="#skills">
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+
+            <a href="#projects">
+              <i class="fa-solid fa-pen"></i>
+              <span>Projects</span>
+            </a>
+
+            <a href="#contact">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </div>
+        </div>
+        <div class="headshot">
+          <img src="images/Designer.jpeg" alt="Kevin Lam Headshot" />
+        </div>
+      </section>
+
+      <!--Section 2: SKILLS-->
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+          I am proficient in HTML and CSS creating clean, responsive, and
+          visually appealing web pages for web development. I also hone skills
+          in Java programming with a strong understanding of object-oriented
+          programming, data structures, and algorithms, with experience in
+          building applications and problem-solving. I'm also skilled in writing
+          efficient Python scripts for automation, data processing, and
+          general-purpose programming. Lastly, being able to work across
+          multiple languages, adapting to different coding environments and
+          problems makes me very versatile.
+        </div>
+
+        <div class="cells">
+          <div class="cell">
+            <img src="images/html-logo.webp" alt="html logo" />
+            <span>HTML</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/css-logo.webp" alt="css logo" />
+            <span>CSS</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/Python-logo.webp" alt="python logo" />
+            <span>Python</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/java.svg" alt="java logo" />
+            <span>Java</span>
+          </div>
+        </div>
+      </section>
+
+      <!--Section 3: Projects -->
+      <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+
+        <div class="group">
+          <div class="projects-details">
+            <img src="images/kaizen.jpg" />
+            <p>Kaizen</p>
+            <p>January 2025 - Present</p>
+          </div>
+
+          <div class="text">
+            Kaizen is a motivational quotes website that generates random
+            motivational quotes everyday that also allows you to save them in
+            your library if you have an account! It's currently still in
+            progress though.
+          </div>
+
+          <div class="projects-details">
+            <img src="images/weatherapp.jpeg" />
+            <p>Weather App</p>
+            <p>September 2024 - October 2024</p>
+          </div>
+
+          <div class="text">
+            Weather App is an application that gives the user the weather such
+            as temperature, humidity, and wind speeds from any location that is
+            requested using an API from openweathermap.com. The application was
+            built using css to design what application what look like and html
+            for the functions.
+          </div>
+        </div>
+      </section>
+
+      <!--Section 4: CONTACT-->
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+
+        <div class="group">
+          <div class="text">
+            Feel free to reach out to me at any time! I'm always looking to meet
+            and connect with new people!
+          </div>
+
+          <form action="https://formspree.io/f/movnjewv" method="POST">
+            <label>
+              Your email
+              <input type="email" name="email" />
+            </label>
+            <label>
+              Your message
+              <textarea name="message"></textarea>
+            </label>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
